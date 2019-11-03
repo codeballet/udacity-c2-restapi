@@ -42,7 +42,7 @@ export function getGetSignedUrl( key: string ): string{
  * @Returns:
  *    a url as a string
  */
-export function getPutSignedUrl( key: string ){
+export function getPutSignedUrl( key: string ): string{
 
     const signedUrlExpireSeconds = 60 * 5
 
